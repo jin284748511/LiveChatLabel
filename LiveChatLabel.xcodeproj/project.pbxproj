@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31B6BAD61DD1741E0061F735 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B6BAD51DD1741E0061F735 /* main.m */; };
+		31B6BAD91DD1741E0061F735 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B6BAD81DD1741E0061F735 /* AppDelegate.m */; };
+		31B6BADC1DD1741E0061F735 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B6BADB1DD1741E0061F735 /* ViewController.m */; };
+		31B6BADF1DD1741E0061F735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B6BADD1DD1741E0061F735 /* Main.storyboard */; };
+		31B6BAE11DD1741E0061F735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B6BAE01DD1741E0061F735 /* Assets.xcassets */; };
+		31B6BAE41DD1741E0061F735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B6BAE21DD1741E0061F735 /* LaunchScreen.storyboard */; };
+		31B6BAEF1DD1741F0061F735 /* LiveChatLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B6BAEE1DD1741F0061F735 /* LiveChatLabelTests.m */; };
+		31B6BAFA1DD1741F0061F735 /* LiveChatLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B6BAF91DD1741F0061F735 /* LiveChatLabelUITests.m */; };
+		31B6BB091DD175E20061F735 /* LiveChatCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B6BB081DD175E20061F735 /* LiveChatCell1.m */; };
+		31B6BB0C1DD17FC40061F735 /* LiveChatCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B6BB0B1DD17FC40061F735 /* LiveChatCell2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31B6BAEB1DD1741E0061F735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31B6BAC91DD1741E0061F735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31B6BAD01DD1741E0061F735;
+			remoteInfo = LiveChatLabel;
+		};
+		31B6BAF61DD1741F0061F735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31B6BAC91DD1741E0061F735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31B6BAD01DD1741E0061F735;
+			remoteInfo = LiveChatLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31B6BAD11DD1741E0061F735 /* LiveChatLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveChatLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B6BAD51DD1741E0061F735 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31B6BAD71DD1741E0061F735 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31B6BAD81DD1741E0061F735 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31B6BADA1DD1741E0061F735 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		31B6BADB1DD1741E0061F735 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31B6BADE1DD1741E0061F735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31B6BAE01DD1741E0061F735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31B6BAE31DD1741E0061F735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31B6BAE51DD1741E0061F735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B6BAEA1DD1741E0061F735 /* LiveChatLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveChatLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B6BAEE1DD1741F0061F735 /* LiveChatLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveChatLabelTests.m; sourceTree = "<group>"; };
+		31B6BAF01DD1741F0061F735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B6BAF51DD1741F0061F735 /* LiveChatLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveChatLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B6BAF91DD1741F0061F735 /* LiveChatLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveChatLabelUITests.m; sourceTree = "<group>"; };
+		31B6BAFB1DD1741F0061F735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B6BB071DD175E20061F735 /* LiveChatCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveChatCell1.h; sourceTree = "<group>"; };
+		31B6BB081DD175E20061F735 /* LiveChatCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveChatCell1.m; sourceTree = "<group>"; };
+		31B6BB0A1DD17FC40061F735 /* LiveChatCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveChatCell2.h; sourceTree = "<group>"; };
+		31B6BB0B1DD17FC40061F735 /* LiveChatCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveChatCell2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31B6BACE1DD1741E0061F735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B6BAE71DD1741E0061F735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B6BAF21DD1741F0061F735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31B6BAC81DD1741E0061F735 = {
+			isa = PBXGroup;
+			children = (
+				31B6BAD31DD1741E0061F735 /* LiveChatLabel */,
+				31B6BAED1DD1741F0061F735 /* LiveChatLabelTests */,
+				31B6BAF81DD1741F0061F735 /* LiveChatLabelUITests */,
+				31B6BAD21DD1741E0061F735 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31B6BAD21DD1741E0061F735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31B6BAD11DD1741E0061F735 /* LiveChatLabel.app */,
+				31B6BAEA1DD1741E0061F735 /* LiveChatLabelTests.xctest */,
+				31B6BAF51DD1741F0061F735 /* LiveChatLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31B6BAD31DD1741E0061F735 /* LiveChatLabel */ = {
+			isa = PBXGroup;
+			children = (
+				31B6BAD71DD1741E0061F735 /* AppDelegate.h */,
+				31B6BAD81DD1741E0061F735 /* AppDelegate.m */,
+				31B6BADA1DD1741E0061F735 /* ViewController.h */,
+				31B6BADB1DD1741E0061F735 /* ViewController.m */,
+				31B6BB071DD175E20061F735 /* LiveChatCell1.h */,
+				31B6BB081DD175E20061F735 /* LiveChatCell1.m */,
+				31B6BB0A1DD17FC40061F735 /* LiveChatCell2.h */,
+				31B6BB0B1DD17FC40061F735 /* LiveChatCell2.m */,
+				31B6BADD1DD1741E0061F735 /* Main.storyboard */,
+				31B6BAE01DD1741E0061F735 /* Assets.xcassets */,
+				31B6BAE21DD1741E0061F735 /* LaunchScreen.storyboard */,
+				31B6BAE51DD1741E0061F735 /* Info.plist */,
+				31B6BAD41DD1741E0061F735 /* Supporting Files */,
+			);
+			path = LiveChatLabel;
+			sourceTree = "<group>";
+		};
+		31B6BAD41DD1741E0061F735 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31B6BAD51DD1741E0061F735 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31B6BAED1DD1741F0061F735 /* LiveChatLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				31B6BAEE1DD1741F0061F735 /* LiveChatLabelTests.m */,
+				31B6BAF01DD1741F0061F735 /* Info.plist */,
+			);
+			path = LiveChatLabelTests;
+			sourceTree = "<group>";
+		};
+		31B6BAF81DD1741F0061F735 /* LiveChatLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31B6BAF91DD1741F0061F735 /* LiveChatLabelUITests.m */,
+				31B6BAFB1DD1741F0061F735 /* Info.plist */,
+			);
+			path = LiveChatLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31B6BAD01DD1741E0061F735 /* LiveChatLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B6BAFE1DD1741F0061F735 /* Build configuration list for PBXNativeTarget "LiveChatLabel" */;
+			buildPhases = (
+				31B6BACD1DD1741E0061F735 /* Sources */,
+				31B6BACE1DD1741E0061F735 /* Frameworks */,
+				31B6BACF1DD1741E0061F735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveChatLabel;
+			productName = LiveChatLabel;
+			productReference = 31B6BAD11DD1741E0061F735 /* LiveChatLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31B6BAE91DD1741E0061F735 /* LiveChatLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B6BB011DD1741F0061F735 /* Build configuration list for PBXNativeTarget "LiveChatLabelTests" */;
+			buildPhases = (
+				31B6BAE61DD1741E0061F735 /* Sources */,
+				31B6BAE71DD1741E0061F735 /* Frameworks */,
+				31B6BAE81DD1741E0061F735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31B6BAEC1DD1741E0061F735 /* PBXTargetDependency */,
+			);
+			name = LiveChatLabelTests;
+			productName = LiveChatLabelTests;
+			productReference = 31B6BAEA1DD1741E0061F735 /* LiveChatLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31B6BAF41DD1741F0061F735 /* LiveChatLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B6BB041DD1741F0061F735 /* Build configuration list for PBXNativeTarget "LiveChatLabelUITests" */;
+			buildPhases = (
+				31B6BAF11DD1741F0061F735 /* Sources */,
+				31B6BAF21DD1741F0061F735 /* Frameworks */,
+				31B6BAF31DD1741F0061F735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31B6BAF71DD1741F0061F735 /* PBXTargetDependency */,
+			);
+			name = LiveChatLabelUITests;
+			productName = LiveChatLabelUITests;
+			productReference = 31B6BAF51DD1741F0061F735 /* LiveChatLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31B6BAC91DD1741E0061F735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = com.qianrong.peppertv;
+				TargetAttributes = {
+					31B6BAD01DD1741E0061F735 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = H97DGUNJ8F;
+						ProvisioningStyle = Automatic;
+					};
+					31B6BAE91DD1741E0061F735 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9DTW679MA9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31B6BAD01DD1741E0061F735;
+					};
+					31B6BAF41DD1741F0061F735 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9DTW679MA9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31B6BAD01DD1741E0061F735;
+					};
+				};
+			};
+			buildConfigurationList = 31B6BACC1DD1741E0061F735 /* Build configuration list for PBXProject "LiveChatLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31B6BAC81DD1741E0061F735;
+			productRefGroup = 31B6BAD21DD1741E0061F735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31B6BAD01DD1741E0061F735 /* LiveChatLabel */,
+				31B6BAE91DD1741E0061F735 /* LiveChatLabelTests */,
+				31B6BAF41DD1741F0061F735 /* LiveChatLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31B6BACF1DD1741E0061F735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B6BAE41DD1741E0061F735 /* LaunchScreen.storyboard in Resources */,
+				31B6BAE11DD1741E0061F735 /* Assets.xcassets in Resources */,
+				31B6BADF1DD1741E0061F735 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B6BAE81DD1741E0061F735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B6BAF31DD1741F0061F735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31B6BACD1DD1741E0061F735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B6BADC1DD1741E0061F735 /* ViewController.m in Sources */,
+				31B6BB0C1DD17FC40061F735 /* LiveChatCell2.m in Sources */,
+				31B6BB091DD175E20061F735 /* LiveChatCell1.m in Sources */,
+				31B6BAD91DD1741E0061F735 /* AppDelegate.m in Sources */,
+				31B6BAD61DD1741E0061F735 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B6BAE61DD1741E0061F735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B6BAEF1DD1741F0061F735 /* LiveChatLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31B6BAF11DD1741F0061F735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B6BAFA1DD1741F0061F735 /* LiveChatLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31B6BAEC1DD1741E0061F735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31B6BAD01DD1741E0061F735 /* LiveChatLabel */;
+			targetProxy = 31B6BAEB1DD1741E0061F735 /* PBXContainerItemProxy */;
+		};
+		31B6BAF71DD1741F0061F735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31B6BAD01DD1741E0061F735 /* LiveChatLabel */;
+			targetProxy = 31B6BAF61DD1741F0061F735 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31B6BADD1DD1741E0061F735 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31B6BADE1DD1741E0061F735 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31B6BAE21DD1741E0061F735 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31B6BAE31DD1741E0061F735 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31B6BAFC1DD1741F0061F735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31B6BAFD1DD1741F0061F735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31B6BAFF1DD1741F0061F735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = H97DGUNJ8F;
+				INFOPLIST_FILE = LiveChatLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianrong.peppertv.LiveChatLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31B6BB001DD1741F0061F735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = H97DGUNJ8F;
+				INFOPLIST_FILE = LiveChatLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianrong.peppertv.LiveChatLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		31B6BB021DD1741F0061F735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9DTW679MA9;
+				INFOPLIST_FILE = LiveChatLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianrong.peppertv.LiveChatLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveChatLabel.app/LiveChatLabel";
+			};
+			name = Debug;
+		};
+		31B6BB031DD1741F0061F735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9DTW679MA9;
+				INFOPLIST_FILE = LiveChatLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianrong.peppertv.LiveChatLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveChatLabel.app/LiveChatLabel";
+			};
+			name = Release;
+		};
+		31B6BB051DD1741F0061F735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9DTW679MA9;
+				INFOPLIST_FILE = LiveChatLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianrong.peppertv.LiveChatLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LiveChatLabel;
+			};
+			name = Debug;
+		};
+		31B6BB061DD1741F0061F735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9DTW679MA9;
+				INFOPLIST_FILE = LiveChatLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianrong.peppertv.LiveChatLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LiveChatLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31B6BACC1DD1741E0061F735 /* Build configuration list for PBXProject "LiveChatLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B6BAFC1DD1741F0061F735 /* Debug */,
+				31B6BAFD1DD1741F0061F735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B6BAFE1DD1741F0061F735 /* Build configuration list for PBXNativeTarget "LiveChatLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B6BAFF1DD1741F0061F735 /* Debug */,
+				31B6BB001DD1741F0061F735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B6BB011DD1741F0061F735 /* Build configuration list for PBXNativeTarget "LiveChatLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B6BB021DD1741F0061F735 /* Debug */,
+				31B6BB031DD1741F0061F735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31B6BB041DD1741F0061F735 /* Build configuration list for PBXNativeTarget "LiveChatLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31B6BB051DD1741F0061F735 /* Debug */,
+				31B6BB061DD1741F0061F735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31B6BAC91DD1741E0061F735 /* Project object */;
+}
