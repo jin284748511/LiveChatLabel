@@ -17,6 +17,7 @@
 		31B6BAFA1DD1741F0061F735 /* LiveChatLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B6BAF91DD1741F0061F735 /* LiveChatLabelUITests.m */; };
 		31B6BB091DD175E20061F735 /* LiveChatCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B6BB081DD175E20061F735 /* LiveChatCell1.m */; };
 		31B6BB0C1DD17FC40061F735 /* LiveChatCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B6BB0B1DD17FC40061F735 /* LiveChatCell2.m */; };
+		31B6BB4E1DD306910061F735 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B6BB4D1DD306910061F735 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		31B6BB081DD175E20061F735 /* LiveChatCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveChatCell1.m; sourceTree = "<group>"; };
 		31B6BB0A1DD17FC40061F735 /* LiveChatCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveChatCell2.h; sourceTree = "<group>"; };
 		31B6BB0B1DD17FC40061F735 /* LiveChatCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveChatCell2.m; sourceTree = "<group>"; };
+		31B6BB4C1DD306910061F735 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		31B6BB4D1DD306910061F735 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				31B6BAD81DD1741E0061F735 /* AppDelegate.m */,
 				31B6BADA1DD1741E0061F735 /* ViewController.h */,
 				31B6BADB1DD1741E0061F735 /* ViewController.m */,
+				31B6BB4C1DD306910061F735 /* TestViewController.h */,
+				31B6BB4D1DD306910061F735 /* TestViewController.m */,
 				31B6BB071DD175E20061F735 /* LiveChatCell1.h */,
 				31B6BB081DD175E20061F735 /* LiveChatCell1.m */,
 				31B6BB0A1DD17FC40061F735 /* LiveChatCell2.h */,
@@ -286,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B6BB4E1DD306910061F735 /* TestViewController.m in Sources */,
 				31B6BADC1DD1741E0061F735 /* ViewController.m in Sources */,
 				31B6BB0C1DD17FC40061F735 /* LiveChatCell2.m in Sources */,
 				31B6BB091DD175E20061F735 /* LiveChatCell1.m in Sources */,

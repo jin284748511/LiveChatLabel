@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TestViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // 思路一
+//    TestViewController *testVC = [[TestViewController alloc]init];
+//    self.window.rootViewController = testVC;
+//    [self.window makeKeyWindow];
     // Override point for customization after application launch.
     return YES;
 }
