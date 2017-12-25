@@ -110,16 +110,13 @@
 		31B6BAD31DD1741E0061F735 /* LiveChatLabel */ = {
 			isa = PBXGroup;
 			children = (
+				DA524A211FF0DBBB00E55169 /* liveChatCell */,
 				31B6BAD71DD1741E0061F735 /* AppDelegate.h */,
 				31B6BAD81DD1741E0061F735 /* AppDelegate.m */,
 				31B6BADA1DD1741E0061F735 /* ViewController.h */,
 				31B6BADB1DD1741E0061F735 /* ViewController.m */,
 				31B6BB4C1DD306910061F735 /* TestViewController.h */,
 				31B6BB4D1DD306910061F735 /* TestViewController.m */,
-				31B6BB071DD175E20061F735 /* LiveChatCell1.h */,
-				31B6BB081DD175E20061F735 /* LiveChatCell1.m */,
-				31B6BB0A1DD17FC40061F735 /* LiveChatCell2.h */,
-				31B6BB0B1DD17FC40061F735 /* LiveChatCell2.m */,
 				31B6BADD1DD1741E0061F735 /* Main.storyboard */,
 				31B6BAE01DD1741E0061F735 /* Assets.xcassets */,
 				31B6BAE21DD1741E0061F735 /* LaunchScreen.storyboard */,
@@ -153,6 +150,17 @@
 				31B6BAFB1DD1741F0061F735 /* Info.plist */,
 			);
 			path = LiveChatLabelUITests;
+			sourceTree = "<group>";
+		};
+		DA524A211FF0DBBB00E55169 /* liveChatCell */ = {
+			isa = PBXGroup;
+			children = (
+				31B6BB071DD175E20061F735 /* LiveChatCell1.h */,
+				31B6BB081DD175E20061F735 /* LiveChatCell1.m */,
+				31B6BB0A1DD17FC40061F735 /* LiveChatCell2.h */,
+				31B6BB0B1DD17FC40061F735 /* LiveChatCell2.m */,
+			);
+			path = liveChatCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
